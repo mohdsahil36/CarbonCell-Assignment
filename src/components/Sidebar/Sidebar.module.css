@@ -9,11 +9,11 @@
     background-color: rgb(26, 30, 28);
     padding: 1.25rem;
 }
-@media only screen and (max-width:577px) {
+/* @media only screen and (max-width:577px) {
     .sidebar-navigation{
         min-height: auto !important;
     }
-}
+} */
 .org{
     display: flex;
     justify-content: space-between;
