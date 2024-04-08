@@ -7,11 +7,7 @@ export default function Pages() {
         <div className={classes['navigation-links']}>
             <nav>
                 <ul className={classes['navigation-list']}>
-                    <li>
-                        <NavLink to='/' exact>
-                            Home
-                        </NavLink>
-                    </li>
+                    
                 </ul>
             </nav>
         </div>

@@ -1,0 +1,27 @@
+.user-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.65rem;
+    background-color: rgb(51, 51, 51);
+    border-radius: 10px;
+}
+.avatar{
+    height: 1.75rem;
+}
+.user-data{
+    padding-left: 0.75rem;
+}
+p{
+    margin-bottom: 0;
+}
+.username{
+    color: white;
+    font-weight: 600;
+}
+.user-email{
+    color: rgb(104,104,104);
+}
+.ext{
+    color: rgb(104,104,104);
+}

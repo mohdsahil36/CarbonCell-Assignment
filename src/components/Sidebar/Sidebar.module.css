@@ -5,12 +5,17 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     background-color: rgb(26, 30, 28);
     padding: 1.25rem;
 }
 .org{
     display: flex;
     justify-content: space-between;
+}
+.collapse-button{
+    background:none;
+    border: none;
 }
 .hamburger-icon,.search-icon{
     color: rgb(199,200,199);
@@ -33,4 +38,7 @@
 }
 :focus-visible{
     outline: none;
+}
+.options{
+    margin-bottom: 2.75rem;
 }

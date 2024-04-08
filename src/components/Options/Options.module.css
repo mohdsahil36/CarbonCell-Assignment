@@ -1,0 +1,27 @@
+.notifications-opt{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.notification,.support,.settings{
+    display: flex;
+}
+.notification-svg,.support-svg,.settings-svg{
+    height: 1.5rem;
+    color: white;
+}
+.notification-label,.support-label,.settings-label{
+    padding-left: 0.75rem;
+    color: rgb(156, 156, 156);
+}
+.notNum{
+    background-color: rgb(42, 180, 42);
+    color: black;
+    font-weight: 700;
+    padding: 0.125rem 0.45rem;
+    border-radius: 5px;
+    font-size: 0.80rem;
+}
+.support{
+    margin: 1.25rem 0;
+}
