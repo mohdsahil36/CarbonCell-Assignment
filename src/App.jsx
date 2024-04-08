@@ -37,7 +37,6 @@ const router=createBrowserRouter([
 
 function App() {
   return (
-    <div className='container-fluid'>
       <div className='row'>
         <div className='col-lg-3 col-md-4 p-0 sideBar'>
           <Sidebar />
@@ -46,7 +45,6 @@ function App() {
           <RouterProvider router={router}/>
         </div>
       </div>
-    </div>
   )
 }
 
