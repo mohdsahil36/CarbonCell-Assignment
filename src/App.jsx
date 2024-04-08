@@ -39,7 +39,7 @@ function App() {
   return (
     <div className='container-fluid'>
       <div className='row'>
-        <div className='col-md-5 p-0 sideBar'>
+        <div className='col-md-3 p-0 sideBar'>
           <Sidebar />
         </div>
         <div className='col-md-6 text-center text-success'>
