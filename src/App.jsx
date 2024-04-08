@@ -39,10 +39,10 @@ function App() {
   return (
     <div className='container-fluid'>
       <div className='row'>
-        <div className='col-md-3 p-0 sideBar'>
+        <div className='col-lg-3 col-md-4 p-0 sideBar'>
           <Sidebar />
         </div>
-        <div className='col-md-6 text-center text-success'>
+        <div className='col-lg-9 col-md-8 p-0 text-success'>
           <RouterProvider router={router}/>
         </div>
       </div>
