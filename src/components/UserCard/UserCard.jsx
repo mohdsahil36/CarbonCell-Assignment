@@ -6,7 +6,7 @@ import classes from './UserCard.module.css';
 export default function UserCard(){
     return(
         <div className={classes['user-card']}>
-            <div className='user-avatar'>
+            <div className={classes['user-avatar']}>
                 <img src={Avatar} alt="avatar" className={classes.avatar}/>
             </div>
             <div className={classes['user-data']}>

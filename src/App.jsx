@@ -41,7 +41,7 @@ function App() {
         <div className='col-md-3 p-0 sideBar'>
           <Sidebar />
         </div>
-        <div className='col-md-6 text-center text-success'>
+        <div className='col-md-9 text-success'>
           <RouterProvider router={router}/>
         </div>
       </div>
