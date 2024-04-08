@@ -31,6 +31,7 @@ export default function Sidebar(){
                     <UserCard/>
                 </div>
             </nav>
+            
         </aside>
     )
 }
