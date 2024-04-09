@@ -1,7 +1,59 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import Chart from 'chart.js/auto';
+import classes from './Homepage.module.css';
 
-export default function HomePage(){
-    return(
-        <h1>This is HomePage</h1>
-    )
-}
+const PopulationChart = () => {
+  useEffect(() => {
+    const getData = async () => {
+      try {
+        const response = await fetch('https://datausa.io/api/data?drilldowns=Nation&measures=Population');
+        if (!response.ok) {
+          throw new Error('Network response was not ok');
+        }
+        const data = await response.json();
+        const labels = data.data.map(entry => entry.Year).sort();
+        const values = data.data.map(entry => entry.Population).reverse();
+
+        const ctx = document.getElementById('bar-chart').getContext('2d');
+        new Chart(ctx, {
+          type: 'line',
+          data: {
+            labels: labels,
+            datasets: [{
+              label: 'Population (millions)',
+              borderColor: '#4a5ad9',
+              data: values
+            }]
+          },
+          options: {
+            plugins: {
+              legend: { display: true },
+              title: {
+                display: true,
+                text: 'U.S Population'
+              }
+            }
+          }
+        });
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+
+    getData();
+  }, []);
+
+  return (
+    <>
+      <div className={classes['population-header']}>
+        <h2>Graph population data</h2>
+      </div>
+      <p className='py-5 text-center text-primary fw-bold'><span className='text-danger fw-bold'>IMPORTANT!</span> In the document it was asked to plot the graph between population and different nations. But the value of nations was same in all objects so graph has been plotted between population and different years</p>
+      <div className={classes.chartContainer}>
+        <canvas id="bar-chart" className={classes['bar-chart']}></canvas>
+      </div>
+    </>
+  );
+};
+
+export default PopulationChart;
