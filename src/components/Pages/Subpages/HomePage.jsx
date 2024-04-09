@@ -48,7 +48,9 @@ const PopulationChart = () => {
       <div className={classes['population-header']}>
         <h2>Graph population data</h2>
       </div>
-      <p className='py-5 text-center text-primary fw-bold'><span className='text-danger fw-bold'>IMPORTANT!</span> In the document it was asked to plot the graph between population and different nations. But the value of nations was same in all objects so graph has been plotted between population and different years</p>
+      <div className='p-3'>
+        <p className={`${classes['population-text']}`}><span className='text-danger fw-bold'>IMPORTANT!</span> In the document it was asked to plot the graph between population and different nations. But the value of nations was same in all objects so graph has been plotted between population and different years</p>
+      </div>
       <div className={classes.chartContainer}>
         <canvas id="bar-chart" className={classes['bar-chart']}></canvas>
       </div>
