@@ -2,8 +2,8 @@ import './App.css';
 import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 import { useMediaQuery } from 'react-responsive';
 import Sidebar from './components/Sidebar/Sidebar';
-import HomePage from './components/Pages/Subpages/HomePage';
-import OrganizationPage from './components/Pages/Subpages/Organization';
+import PopulationGraph from './components/Pages/Subpages/PopulationGraph/PopulationGraph';
+import CryptoPrices from './components/Pages/Subpages/Crypto/CryptoPrices';
 import AssetsPage from './components/Pages/Subpages/Assets';
 import TradePage from './components/Pages/Subpages/Trade';
 import HistoryPage from './components/Pages/Subpages/History';
@@ -47,7 +47,8 @@ function App() {
       //   </div>
       // </div>
       <>
-        <HomePage/>
+        {/* <PopulationGraph/> */}
+        <CryptoPrices/>
       </>
   )
 }

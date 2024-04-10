@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import Chart from 'chart.js/auto';
-import classes from './Homepage.module.css';
+import classes from './PopulationGraph.module.css';
 
 const PopulationChart = () => {
   useEffect(() => {
