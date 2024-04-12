@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { BsCurrencyExchange } from "react-icons/bs";
+import { FcCurrencyExchange } from "react-icons/fc";
+import { GrCurrency } from "react-icons/gr";
+import { MdOutlineDescription } from "react-icons/md";
 import classes from './CryptoPrices.module.css';
 
 export default function CryptoPrices() {
@@ -35,9 +37,9 @@ export default function CryptoPrices() {
             {
                 values.map((index, idx) => (
                     <div key={idx} className={classes['value-card']}>
-                        <p className={classes.code}>{index.code}</p>
-                        <p className={classes.description}>{index.description}</p>
-                        <p className={classes.rate}>{index.rate}</p>
+                        <p className={classes.code}><FcCurrencyExchange size={'1.5rem'}/><span className={classes.value}>{index.code}</span></p>
+                        <p className={classes.description}><MdOutlineDescription size={'1.5rem'}/><span className={classes.value}>{index.description}</span></p>
+                        <p className={classes.rate}><GrCurrency size={'1.5rem'}/><span className={classes.value}>{index.rate}</span></p>
                     </div>
                 ))
             }
