@@ -39,20 +39,21 @@
 .code{
     background-color: black;
     color: white;
-    padding: 0.75rem 1rem;
+    padding:1rem;
     border-radius: 7px;
 }
 .description{
     background-color: #0077ff;
     color: white;
-    padding: 0.75rem 1rem;
+    padding:1rem;
     border-radius: 7px;
     margin: 1rem 0;
+    min-height: 4.5rem;
 }
 .rate{
     background-color: green;
     color: white;
-    padding: 0.75rem 1rem;
+    padding:1rem;
     border-radius: 7px;
 }
 .value{

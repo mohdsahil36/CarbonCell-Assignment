@@ -31,7 +31,7 @@ export default function CryptoPrices() {
     // console.log(values);
 
     return (
-        <>
+        <div className='w-100'>
             <h2 className={classes['crypto-page-heading']}>Cryptocurrency Prices</h2>
             <div className={classes['currency-container']}>
             {
@@ -44,6 +44,6 @@ export default function CryptoPrices() {
                 ))
             }
             </div>
-        </>
+        </div>
     );
 }

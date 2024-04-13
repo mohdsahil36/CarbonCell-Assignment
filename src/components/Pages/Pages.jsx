@@ -1,13 +1,9 @@
 import React from 'react';
 import classes from './Pages.module.css';
+import { NavLink } from 'react-router-dom';
 
 export default function Pages() {
     return (
-        <div className={classes['navigation-links']}>
-            <nav>
-                <ul className={classes['navigation-list']}>
-                </ul>
-            </nav>
-        </div>
+        <h1>navigation</h1>
     );
 }

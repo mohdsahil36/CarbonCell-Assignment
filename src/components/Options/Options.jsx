@@ -6,7 +6,7 @@ import classes from './Options.module.css';
 
 export default function Options(){
     return(
-        <div className='user-options'>
+        <div className='user-options mb-5'>
             <div className={classes['notifications-opt']}>
                 <div className={classes.notification}>
                     <MdNotificationsNone className={classes['notification-svg']} size={'1.25rem'}/>

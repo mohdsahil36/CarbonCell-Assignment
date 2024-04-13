@@ -61,7 +61,7 @@ function App() {
   };
 
   return (
-    <div>
+    <div className='w-100'>
       <h2 className={classes['metamask-heading']}>MetaMask Account</h2>
       <div className={classes.metamask}>
         <img src="https://www.investopedia.com/thmb/v5K6POcZQXnjy1MhKNSNTghQ6jM=/fit-in/1500x750/filters:format(png):fill(white):max_bytes(150000):strip_icc()/Metamask_logo-aca547fe6081482085662b03e2235f98.jpg" alt="metamask" />

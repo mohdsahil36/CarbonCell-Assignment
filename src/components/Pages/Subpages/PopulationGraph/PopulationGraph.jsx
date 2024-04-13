@@ -44,7 +44,7 @@ const PopulationChart = () => {
   }, []);
 
   return (
-    <>
+    <div>
       <div className={classes['population-header']}>
         <h2>Graph population data</h2>
       </div>
@@ -54,7 +54,7 @@ const PopulationChart = () => {
       <div className={classes.chartContainer}>
         <canvas id="bar-chart" className={classes['bar-chart']}></canvas>
       </div>
-    </>
+    </div>
   );
 };
 
