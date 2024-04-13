@@ -1,0 +1,35 @@
+.metamask-heading{
+    padding: 2.5rem 0;
+    background-color: rgb(37 58 89);
+    color: white;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 0;
+}
+.metamask,.connection-buttons{
+    text-align: center;
+}
+.metamask img{
+    height: 15rem;
+}
+.active{
+    padding: 0.75rem 1.25rem;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.account{
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+.disconnect{
+    padding: 0.75rem 1.25rem;
+    border: none;
+    background-color: #dc3545;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+}

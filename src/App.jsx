@@ -4,10 +4,7 @@ import { useMediaQuery } from 'react-responsive';
 import Sidebar from './components/Sidebar/Sidebar';
 import PopulationGraph from './components/Pages/Subpages/PopulationGraph/PopulationGraph';
 import CryptoPrices from './components/Pages/Subpages/Crypto/CryptoPrices';
-import AssetsPage from './components/Pages/Subpages/Assets';
-import TradePage from './components/Pages/Subpages/Trade';
-import HistoryPage from './components/Pages/Subpages/History';
-import Wallet from './components/Pages/Subpages/Wallet';
+import MetaMask from './components/Pages/Subpages/MetaMask/MetaMask';
 
 // const router=createBrowserRouter([
 //   {
@@ -48,7 +45,8 @@ function App() {
       // </div>
       <>
         {/* <PopulationGraph/> */}
-        <CryptoPrices/>
+        {/* <CryptoPrices/> */}
+        <MetaMask/>
       </>
   )
 }
