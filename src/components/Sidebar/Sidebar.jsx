@@ -30,7 +30,7 @@ export default function Sidebar() {
                                     </li>
                                     <li className="nav-item">
                                         <div className={classes.searchBar}>
-                                            <IoMdSearch size={'1.5rem'} className={classes['search-icon']} />
+                                            <IoMdSearch size={'1rem'} className={classes['search-icon']} />
                                             <input type="text" placeholder="Search" className={classes['search-input']} />
                                         </div>
                                     </li>
