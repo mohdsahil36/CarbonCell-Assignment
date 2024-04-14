@@ -4,10 +4,8 @@
     display: flex;
     justify-content: center;
 }
-  
-.bar-chart {
-    max-width: 90%;
-    height: 90% !important;
+.bar-chart{
+    height: 30rem !important;
 }
 .population-header{
     text-align: center;

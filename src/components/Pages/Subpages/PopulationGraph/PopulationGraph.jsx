@@ -44,7 +44,7 @@ const PopulationChart = () => {
   }, []);
 
   return (
-    <div>
+    <div className='w-100'>
       <div className={classes['population-header']}>
         <h2>Graph population data</h2>
       </div>

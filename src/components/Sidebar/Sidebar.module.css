@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: space-between;
     background-color: rgb(26, 30, 28);
-    padding: 1.25rem;
+    padding: 1rem;
 }
 .org{
     display: flex;

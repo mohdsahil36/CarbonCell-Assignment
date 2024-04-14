@@ -1,0 +1,32 @@
+.page-navigation-list{
+    padding: 0;
+    list-style: none;
+    margin-top: 1.5rem;
+}
+.page-navigation-list li:nth-child(even){
+    margin: 1rem 0;
+}
+.pageLink{
+    margin-left: 1rem;
+}
+.page-list{
+    display: flex;
+    align-items: center;
+}
+svg{
+    color: white;
+}
+li a{
+    margin-left: 0.5rem;
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+    font-weight: 600;
+}
+li a:hover{
+    color: rgb(40,159,40);
+    font-weight: 600;
+}
+.active{
+    color: rgb(40,159,40) !important;
+    font-weight: 600 !important;
+}
