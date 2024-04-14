@@ -13,6 +13,7 @@
 .notification-label,.support-label,.settings-label{
     padding-left: 0.75rem;
     color: rgb(156, 156, 156);
+    cursor: pointer;
 }
 .notNum{
     background-color: rgb(42, 180, 42);
